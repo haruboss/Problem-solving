@@ -18,4 +18,4 @@ function findPeakElement(arr) {
     return peakEl
 }
 
-console.log(findPeakElement([5]))
+console.log(findPeakElement([10, 20, 15, 2, 23, 90, 67, 68, 34]))
