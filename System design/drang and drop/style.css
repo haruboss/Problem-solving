@@ -1,0 +1,25 @@
+#drag-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  }
+  
+  #drag-item {
+    width: 100px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: move;
+  }
+  
+  #drop-target {
+    width: 100px;
+    height: 50px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  }
+  
