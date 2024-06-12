@@ -2,8 +2,7 @@ function maximumSumSubArray(arr) {
     if (!arr.length) 
     return 0
 
-    let maxSum = arr[0]
-    let currMax = arr[0]
+    let maxSum = currMax = arr[0]
 
     arr.forEach(number => {
         currMax = Math.max(number, currMax + number)

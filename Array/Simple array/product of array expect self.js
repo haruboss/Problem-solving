@@ -3,7 +3,6 @@
 
 function productArrayExpectSelf(arr) {
     const n = arr.length
-    // if (!n) return []
 
     const result = []
     let leftProduct = 1
