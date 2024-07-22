@@ -26,4 +26,4 @@ function subArrayOfMaximumSum(arr) {
 }
 
 
-console.log(subArrayOfMaximumSum([1,2,3,-7, 4,2,9]))
+console.log(subArrayOfMaximumSum([1,91,-300,-7, 4,2,9]))

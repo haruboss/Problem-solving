@@ -37,3 +37,8 @@ Array.prototype.myForEach = customForEach
 
 Array.prototype.myReduce = customReduce
 
+// const r = [1,2,3,5].myMap((n) => n*2)
+const r = [1,2,3,5]
+let a = r.myForEach((n) => n*2)
+console.log(r)
+console.log(a)

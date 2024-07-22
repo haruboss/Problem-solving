@@ -1,18 +1,18 @@
 function secondLargestNumber(arr) {
     if (arr.length < 2) {
-        return null
+        return -1
     }
-    let firstMax = SecondMax = 0
+    let firstMax = secondMax = 0
     arr.forEach(num => {
         if (num > firstMax) {
-            SecondMax = firstMax
+            secondMax = firstMax
             firstMax = num
-        } else if (num > SecondMax && (num !== firstMax)) {
-            SecondMax = num
+        } else if (num > secondMax && (num !== firstMax)) {
+            secondMax = num
         }
     });
 
-    return SecondMax
+    return secondMax
 }
 
 

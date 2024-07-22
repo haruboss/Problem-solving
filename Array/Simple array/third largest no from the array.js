@@ -17,7 +17,7 @@ function thirdLargestNum(arr) {
     });
 
 
-    return thirdMax !== -Infinity ? thirdMax : null; 
+    return thirdMax !== -Infinity ? thirdMax : -1; 
 }
 
 console.log(thirdLargestNum([2,3, 40,10,6]))

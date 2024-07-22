@@ -19,12 +19,12 @@ let nums, n;
 nums = [1,1,2,2], n = 2
 // Output: [1,2,1,2]
 
-var shuffle = function(nums, n) {
+const shuffle =  (nums, n) => {
     const resultArr = []
-    for (let i=0;i<nums.length/2;i++) {
+    for (let i = 0; i < nums.length / 2; i++) {
         resultArr.push(nums[i])
         resultArr.push(nums[n])
-        n+=1
+        n += 1
     }
     return resultArr
     
